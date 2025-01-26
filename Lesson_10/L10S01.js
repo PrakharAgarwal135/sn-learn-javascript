@@ -7,5 +7,6 @@ gs.info(a < b);
 
 var n = '3';
 var i = 3;
-gs.info(n == i); // REALLY?!!
+gs.info(n == i); // true
+gs.info(n === i); // false
 gs.info(i = 4); // WATCH OUT!!!
