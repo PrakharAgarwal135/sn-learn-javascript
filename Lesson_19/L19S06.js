@@ -15,4 +15,9 @@ var i = 20;
 }());
 
 i = 3;
-gs.info('i=' + i);
+gs.info('i=' + I);
+
+
+// Output
+// i = 10
+// i = 3
